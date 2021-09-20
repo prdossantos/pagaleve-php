@@ -1,0 +1,27 @@
+{
+    "name": "pagaleve/pagaleve-php",
+    "description": "Pagaleve PHP library",
+    "authors": [
+        {
+            "name": "paulo",
+            "email": "paulo.ricardo0217@gmail.com"
+        }
+    ],
+    "keywords": [
+      "pagaleve",
+      "payment processing",
+      "api"
+    ],
+    "require": {
+        "php": ">=7.2.5",
+        "guzzlehttp/guzzle": "^7.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+      "psr-4": {
+        "Pagaleve\\PHP\\": "src/"
+      }
+    }
+}
